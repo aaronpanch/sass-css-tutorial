@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CSS/SASS Tutorial</title>
+    <link href="http://fonts.googleapis.com/css?family=Abril+Fatface|Source+Sans+Pro:400,400italic,700" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <article>
+      <h1>An Introduction to CSS/SASS</h1>
+      <p>
+        Welcome! This page is designed to introduce a few stylish organizational ideas to make working with CSS and SASS a little more <a href="http://i.imgur.com/Q3cUg29.gif" >awesome</a>.
+        It also is a living reference guide and exercise for proper CSS and SASS techniques.
+        Currently, there are two versions of this page: one filled with numerous CSS anti-patterns, and one that is better organized and conforms to our architecture and style.
+        As an exercise/tutorial, this page is meant to be cleaned-up and tweaked to be more semantic and badass.
+        Careful inspectors of the markup and CSS will notice a few glaring patterns evident in this version.
+        We've got a lack of classes, we're globally changing elements, and ultimately have set up a teetering tower ready to crumble into a million tear-soaked pieces.
+      </p>
+
+      <h2>The Role of CSS</h2>
+      <p>
+        Most everyone knows that CSS is used for styling content.  Any given web page can be separated in to three (not <em>exactly</em> disctinct) categories: (1) Content, (2) Decoration, (3) Interactivity.  As you've probably guessed, the content is usually just HTML, the decoration is CSS, and the interactivity is the page's JavaScript.  Today we'll talk about a page's "decoration" layer.
+      </p>
+
+      <hr>
+
+      <h2>Selection</h2>
+      <p>
+        The most fundamental concept in CSS is selection.  We've all used CSS selectors before.  We've seen that <code>*</code>, the <code>.something</code> or the <code>#hashtag</code>.  These commonly used selectors are usually called <strong>simple selectors</strong>.  CSS gets fun (or ugly) when we chain these simple selectors together.
+      </p>
+      <div class="well">
+        <h3>Definition</h3>
+        A CSS <strong>combinator</strong> combines or explains the relationship between two or more simple selectors.
+      </div>
+
+      <p>
+        Pour-over ugh narwhal, Pinterest lo-fi small batch banh mi keffiyeh High Life Odd Future. Taxidermy drinking vinegar twee beard cray swag. Slow-carb selvage sustainable, umami PBR&B kogi four dollar toast cliche. Raw denim cornhole lumbersexual normcore cred. Normcore heirloom wayfarers shabby chic cronut stumptown, seitan Etsy next level listicle photo booth blog craft beer forage. XOXO Helvetica tilde health goth Bushwick 8-bit. Mixtape Bushwick forage Pitchfork, flexitarian vegan Echo Park lo-fi hashtag polaroid chia.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Representation</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>"<code>&nbsp;</code>"</td>
+            <td>Descendant</td>
+            <td>Filters elements to have the given parent</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </body>
+</html>

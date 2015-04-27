@@ -1,0 +1,82 @@
+@import '../vendor/normalize.css';
+
+html {
+  background: #F6F5EC;
+  color: #3B0512;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: #903;
+}
+
+h1, h2, h3, h4 {
+  color: #903;
+  font-weight: normal;
+}
+
+h1 {
+  color: inherit;
+  font-family: 'Abril Fatface', serif;
+  font-size: 70px;
+  line-height: 1;
+  text-align: center;
+}
+
+article {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0 50px;
+}
+
+hr {
+  padding: 0;
+  border: none;
+  border-top: medium double #3B0512;
+  color: #903;
+  text-align: center;
+  max-width: 50%;
+  font-size: 15px;
+}
+
+hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: #F6F5EC;
+}
+
+p:first-child:first-letter {
+  float: left;
+  color: #903;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: 'Abril Fatface', serif;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+div.well {
+  margin: 0 2em;
+  border: 1px dotted;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+div.well > h3 {
+  margin: 0;
+  margin-bottom: 1em;
+}
