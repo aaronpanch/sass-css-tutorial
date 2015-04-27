@@ -69,4 +69,7 @@ div.well > h3 {
   margin: 0;
   margin-bottom: 1em; }
 
+p span.bold, div span.bold {
+  font-weight: bold; }
+
 /*# sourceMappingURL=styles.css.map */
